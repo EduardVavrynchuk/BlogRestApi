@@ -20,6 +20,7 @@ The following tools I did used:
     PostgreSQL (42.2.5)
     SpringBoot (2.0.2.RELEASE)
     SpringSecurity (5.0.8.RELEASE)
+    Junit (4.12)
 
 ## How to run?
 
