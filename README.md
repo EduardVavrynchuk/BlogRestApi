@@ -21,6 +21,7 @@ The following tools I did used:
     SpringBoot (2.0.2.RELEASE)
     SpringSecurity (5.0.8.RELEASE)
     Junit (4.12)
+    Mockito (2.19.1)
 
 ## How to run?
 
@@ -40,6 +41,6 @@ You need create DB and user, also grant user access on DB, commands:
 
     gradle bootRun
     
-## How to run test? in progress
+## How to run test?
 
     gradle build

@@ -9,15 +9,17 @@ public class PostDto {
         return title;
     }
 
-    public void setTitle(String title) {
+    public PostDto setTitle(String title) {
         this.title = title;
+        return this;
     }
 
     public String getBodyOfPost() {
         return bodyOfPost;
     }
 
-    public void setBodyOfPost(String bodyOfPost) {
+    public PostDto setBodyOfPost(String bodyOfPost) {
         this.bodyOfPost = bodyOfPost;
+        return this;
     }
 }

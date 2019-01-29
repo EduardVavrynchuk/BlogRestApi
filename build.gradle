@@ -22,6 +22,20 @@ repositories {
 	mavenCentral()
 }
 
+sourceSets {
+	main {
+		resources {
+			srcDirs("src/main/resources")
+		}
+	}
+	test {
+		resources {
+			srcDir("src/test/resources")
+		}
+	}
+}
+
+
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
@@ -36,4 +50,7 @@ dependencies {
 	implementation('joda-time:joda-time:2.10')
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('junit:junit:4.12')
+	testImplementation('com.h2database:h2:1.4.197')
+	testImplementation('org.mockito:mockito-core:2.19.1')
 }
