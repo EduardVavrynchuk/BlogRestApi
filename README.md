@@ -5,7 +5,7 @@ Also user can get all posts or only own and retrieve post info by Id of post.
 
 Application contain only one user role - PUBLISHER.
 
-Authentication provided by Bearer access token 
+Authentication provided by Oauth 2.0 Bearer access token 
 
 ## Need documentation?
  
@@ -38,3 +38,7 @@ You need create DB and user, also grant user access on DB, commands:
 ## And run the program:
 
     gradle bootRun
+    
+## How to run test? in progress
+
+    gradle build
