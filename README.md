@@ -1,7 +1,7 @@
 # BlogRestApi
 
 This REST app allow to create/update/delete posts.
-Also user can get all posts or only own and get post by ID.
+Also user can get all posts or only own and retrieve post info by Id of post.
 
 Application contain only one user role - PUBLISHER.
 
